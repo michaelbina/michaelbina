@@ -51,6 +51,22 @@
 	background-color: #e82c0c;
 }
 
+/*purple*/
+.purple,
+.section_header .section_title.portfolio_section_title a span.icon,
+.section_header.audio .section_title strong span.section_name,
+.section_header.audio .section_title strong span.icon {
+	background-color: #FF0CE8;
+}
+
+/*tan*/
+.tan,
+.section_header .section_title.portfolio_section_title a span.icon,
+.section_header.audio .section_title strong span.section_name,
+.section_header.audio .section_title strong span.icon {
+	background-color: #78FFA8;
+}
+
 
 /*Gray*/
 .gray,
