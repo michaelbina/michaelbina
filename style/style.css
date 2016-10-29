@@ -401,21 +401,21 @@ ul.breadcrumbs li:first-child:before { display: none;}
 
 #profile_user { overflow: hidden; float: left; width: 100%; }
 .blog_page #profile_user { padding-top: 30px;}
-#profile_photo { margin-right: 20px; border: 4px solid #e5e5e5; width: 87px;
+#profile_photo { margin: 0 auto; margin-top: 10px; margin-bottom: 20px; border-radius: 100%; border: 4px solid #e5e5e5; width: 87px;
  -webkit-transition: all ease .4s;
  -moz-transition: all ease .4s;
  -ms-transition: all ease .4s;
  -o-transition: all ease .4s;
  transition: all ease .4s;}
 .opened #profile_photo {width: 117px; margin: 0 auto;}
-#profile_photo img { width: 100%; vertical-align: top; height: auto;}
+#profile_photo img { width: 100%; vertical-align: top; height: auto; border-radius: 100%; }
 #profile_name_area { overflow: hidden; text-align: center;}
 .opened #profile_name_area { padding-top: 15px;}
 h1#profile_title { text-transform: uppercase; font-size: 30px; line-height: 35px; font-weight: 700; color: #373737; margin-bottom: 0;}
 h1#profile_title .firstname { text-transform: uppercase;}
 #profile_position { font-size: 18px; line-height: 20px; color: #4ca5d0; margin-bottom: 4px;}
 .opened #profile_position {display: block;}
-.profile_section_body { padding: 24px 30px 56px;}
+.profile_section_body { padding: 24px 60px 56px; text-align: center; }
 #profile_location { font-size: 14px; line-height: 16px; color: #aaa;}
 
 .sidebar.resume_sidebar { padding-top: 1px; float: right; width: 190px; margin-left: 60px;}
