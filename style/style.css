@@ -401,7 +401,7 @@ ul.breadcrumbs li:first-child:before { display: none;}
 
 #profile_user { overflow: hidden; float: left; width: 100%; }
 .blog_page #profile_user { padding-top: 30px;}
-#profile_photo { margin: 0 auto; margin-top: 10px; margin-bottom: 20px; border-radius: 100%; border: 4px solid #e5e5e5; width: 87px;
+#profile_photo { margin: 0 auto; margin-top: 20px; margin-bottom: 10px; border-radius: 100%; border: 4px solid #e5e5e5; width: 87px;
  -webkit-transition: all ease .4s;
  -moz-transition: all ease .4s;
  -ms-transition: all ease .4s;
@@ -411,8 +411,7 @@ ul.breadcrumbs li:first-child:before { display: none;}
 #profile_photo img { width: 100%; vertical-align: top; height: auto; border-radius: 100%; }
 #profile_name_area { overflow: hidden; text-align: center;}
 .opened #profile_name_area { padding-top: 15px;}
-h1#profile_title { text-transform: uppercase; font-size: 30px; line-height: 35px; font-weight: 700; color: #373737; margin-bottom: 0;}
-h1#profile_title .firstname { text-transform: uppercase;}
+h1#profile_title { font-size: 30px; line-height: 35px; font-weight: 700; color: #373737; margin-bottom: 0;}
 #profile_position { font-size: 18px; line-height: 20px; color: #4ca5d0; margin-bottom: 4px;}
 .opened #profile_position {display: block;}
 .profile_section_body { padding: 24px 60px 56px; text-align: center; }
