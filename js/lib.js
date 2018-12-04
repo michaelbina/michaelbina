@@ -245,10 +245,10 @@ jQuery(document).ready(function(){
 					if( QRemail != null && QRemail != "" ) { jQuery('.add_info .email').slideDown().find('.td').html(QRemail) } 
 					if( QRsite != null && QRsite != "" ) { jQuery('.add_info .website').slideDown().find('.td').html(QRsite) } 
 					// Google map refresh
-					if (!googlemap_refreshed) {
-						if (window.googlemap_refresh) {googlemap_refresh();}
-						googlemap_refreshed = true;
-					}
+					// if (!googlemap_refreshed) {
+					// 	if (window.googlemap_refresh) {googlemap_refresh();}
+					// 	googlemap_refreshed = true;
+					// }
 				}
 				return false;
 			},
