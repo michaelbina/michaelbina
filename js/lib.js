@@ -18,6 +18,14 @@ jQuery(window).load(function() {
 	if (window.location.hash==='#portfolio') {
 		jQuery('#portfolio .section_header .section_title a').trigger('click');
 	}
+	
+	jQuery('.widget_skills .skills_row').each(function(){
+		var wd = jQuery(this).find('.progress').attr('data-process');
+		if(jQuery(this).find('.progress').width() === 0) {
+			jQuery(this).find('.progress').animate({'width': wd}, 700);
+		}
+		jQuery('.svg').addClass('vis');
+	});
 });
 
 
